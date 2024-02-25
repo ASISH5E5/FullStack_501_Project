@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="https://thumbs.dreamstime.com/z/sports-flame-logo-olympic-style-athletes-holding-flaming-torch-36969131.jpg">
+
+
+    
+    <title>
+        Sports</title>
+    <style>
+        #full {
+            
+            background-image: url("https://facts.net/wp-content/uploads/2023/07/9-facts-about-fifa-world-cup-1689836355.jpg");
+            
+       background-size: cover;
+     
+      
+           
+        }
+
+        #nav {
+            font-size: 15px;
+        }
+
+        .carousel-item {
+            height: 630px;
+            margin-top: 10px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .carousel-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body class="p-0 m-0 border-0 bd-example m-0 border-0">
+
+    <!-- Navigation Bar -->
+    <nav class="navbar bg-primary" style="height: 80px; font-size: 20px" id="nav" data-bs-theme="dark">
+        <div class="container-fluid">
+            <span class="navbar-brand" style="font-size: 30px;">Sports Scheduler</span>
+            <ul class="nav nav-pills ms-auto" id="navs">
+                <li class="nav-item" style="margin: 0px 20px 0px 40px;">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item" style="margin: 0px 20px 0px 40px;">
+                    <a class="nav-link active" href="/asignup">Admin</a>
+                </li>
+                <li class="nav-item" style="margin: 0px 20px 0px 40px;">
+                    <a class="nav-link active" href="/psignup">Player</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div class="p-10 m-0 border-0 bd-example m- border-5" id="full" style="width: 100%; height: 100%;">
+        <div class="p-15 m-0 border-0 bd-example m-0 border-0">
+            <div id="carouselExample" class="carousel slide" style="max-width: 1000px; margin: auto; height:655px">
+                <div class="carousel-inner">
+                    
+                    <div class="carousel-item" style="background-image: url('images.jpeg');">
+                   
+                        <img src="https://img.freepik.com/free-photo/soccer-players-action-professional-stadium_654080-1130.jpg?w=900&t=st=1708309934~exp=1708310534~hmac=8620440fa2e60e186c593fd4c98d1b416c90bc54c34ab6d09897c3a0d773d3d9" alt="First slide"> 
+                    </div>
+                    <div class="carousel-item active" >
+                        <img src="https://www.streamingrant.com/wp-content/uploads/2022/09/India-vs-Australia-cricket-series-2023-CA_11zon-768x432.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item" style="background-image: url('images.jpeg');">
+                         <img src="https://burlingtongazette.ca/wp-content/uploads/2022/05/Paid-sports-listing-May-20.png" alt="Third slide">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
